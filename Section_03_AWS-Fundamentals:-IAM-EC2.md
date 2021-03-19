@@ -4,11 +4,28 @@
 
 ### 11. AWS Regions and AZs
 
-most AWS services are Region-scoped
+- most AWS services are Region-scoped
+- [AWS global infrastructure](https://aws.amazon.com/about-aws/global-infrastructure)
 
 #
 
 ### 12. IAM Introduction
+
+- users, groups, and roles
+- users -> groups
+  - groups are given permissions, users are put into groups
+- roles are given to machines/services to permissions
+- Policies are used to define what each user, group, or role can/cannot do
+- IAM has global scope
+- policies are in JSON
+- give users the least privilege principle
+- IAM Federation
+  - big enterprises can use their own directory to login
+  - uses SAML standard (Active Directory)
+- one IAM user per physical person
+- one IAM role per application
+- never write IAM creds in code
+- never use root acct except for initial setup
 
 #
 
