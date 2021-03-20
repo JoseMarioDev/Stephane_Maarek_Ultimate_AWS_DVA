@@ -30,15 +30,15 @@
 #
 
 ### 13. IAM Hands-On
-
+- nothing new
 #
 
 ### 14. About the EC2 Console Changes
-
+- nothing new
 #
 
 ### 15. EC2 Introduction
-
+- nothing new
 #
 
 ### 16. SSH Overview
