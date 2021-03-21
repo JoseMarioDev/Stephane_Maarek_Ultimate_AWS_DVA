@@ -89,29 +89,60 @@
 
 ### 22. Introduction to Security Groups
 
+- are stateful: if inbound traffic is allowed, then the outbound is automatically allowed
+- can set inbound and outbound rules
+- ephemeral ports: watch [pytholic's video](https://www.youtube.com/watch?v=p0XCg5VhKQA) for explanation of security groups and ephemeral ports
+- can only allow traffic, can't explicitly deny
+
 #
 
 ### 23. Security Groups Deep Dive
+
+- operate on AWS instances/services
+- can be attached to multiple instances
+- locked down to a region
+- all inbound traffic is blocked
+- all outbound traffic is allowed
 
 #
 
 ### 24. Private vs Public vs Elastic IP
 
+- when you stop then start an instance, it can change it's public IP
+
 #
 
 ### 25. Private vs Public vs Elastic IP Hands On
+
+- nothing to add
 
 #
 
 ### 26. Install Apache on EC2
 
+- ssh into instance
+- run yum updates
+- yum install httpd to install apache
+- dont forget to allow port 80
+- nothing else to add
+
 #
 
 ### 27. EC2 User Data
 
+- launch commands when machine starts
+- automate boot tasks
+- updates
+- software
+- common files from internet
+- script runs at first boot
+- in advanced details when creating an EC2 instance
+
 #
 
 ### Quiz 1: Iam and EC2 midway quiz
+
+- 12/13 correct
 
 #
 
