@@ -30,38 +30,60 @@
 #
 
 ### 13. IAM Hands-On
+
 - nothing new
+
 #
 
 ### 14. About the EC2 Console Changes
+
 - nothing new
+
 #
 
 ### 15. EC2 Introduction
+
 - nothing new
+
 #
 
 ### 16. SSH Overview
+
+- nothing new
+- can use SSH, except for win<10. then you need to use putty
+- can use EC2 instance connect no matter what
 
 #
 
 ### 17. How to SSH using Linux or Mac
 
+- connect to a machine remotely - port 22
+- command: ssh -i yourfile.pem ec2-user@machine.ip.address
+- chmod 400 to fix permissions
+
 #
 
 ### 18. How to SSH using Windows
+
+- nothing new
 
 #
 
 ### 19. How to SSH using Windows 10
 
+- nothing new
+
 #
 
 ### 20. SSH Troubleshooting
 
+- help file
+
 #
 
 ### 21. EC2 Instance Connect
+
+- browser based connection
 
 #
 
