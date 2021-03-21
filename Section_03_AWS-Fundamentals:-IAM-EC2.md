@@ -148,24 +148,60 @@
 
 ### 28. EC2 Instance Launch Types
 
+- on-demand
+- reserved: minimum 1 year
+  - reserved
+  - convertible
+  - scheduled
+- spot: less reliable
+- dedicated instances
+- dedicated hosts
+
 #
 
 ### 29. EC2 Instance Launch Types Hands On
+
+- nothing to add
 
 #
 
 ### 30. EC2 Elastic Network Interfaces
 
+- logical representation of virtual network card
+- can create them independently and move them on the fly for failover
+- AZ scoped
+
 #
 
 ### 31. ENI - Extra Reading
+
+- [helpful extra reading](https://aws.amazon.com/blogs/aws/new-elastic-network-interfaces-in-the-virtual-private-cloud/)
 
 #
 
 ### 32. EC2 Good Things to Know Checklist
 
+- EC2 pricing is per hour based on region/instance type
+- billed by the second
+- pay for other factors as well
+- do not pay if instance is stopped
+- consult pricing page for more info
+- can use AMI also to create our images
+- preinstalled packages, faster boot time, install apps ahead of time
+- AMIs are built for region
+- EC2 instances overview of types:
+  - RAM
+  - CPU
+  - I/O
+  - Network
+  - GPU
+  - M instances are balanced
+  - T2/T3 are burstable - you get burst credits
+
 #
 
 ### Quiz 2: EC2 Final Quiz
+
+- 4/4
 
 #
