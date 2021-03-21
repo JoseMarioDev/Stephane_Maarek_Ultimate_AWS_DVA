@@ -1,6 +1,9 @@
 ### 33. High Availability and Scalability
 
--
+- scalability: vertical(up/down) and horizontal(in/out)
+- HA: running your app in at least 2 data centers/AZs
+  - goal is to survive data loss
+  - can be passive/active
 
 #
 
