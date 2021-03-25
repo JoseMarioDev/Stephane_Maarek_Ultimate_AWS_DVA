@@ -9,7 +9,7 @@
 
 ### 34. Elastic Load Balancer(ELB) Overview
 
-- 
+- nothing new to add
 
 #
 
