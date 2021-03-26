@@ -84,7 +84,12 @@
 
 ### 45. Auto Scaling Groups - Scaling Policies
 
--
+- target tracking scaling
+  - ex around 40%
+- simple/step scaling
+- scheduled action - time based; ex 3pm on friday
+
+- cooldown 300 sec default
 
 #
 
