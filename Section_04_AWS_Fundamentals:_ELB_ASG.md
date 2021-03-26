@@ -15,37 +15,40 @@
 
 ### 35. About the Gateway Load Balancer
 
--
+- new service, shouldnt appear on exam for a while
+- check for updates
 
 #
 
 ### 36. Classic Load Balancer(CLB) w/Hands On
 
--
+- does not use target groups
+- no longer recommended by aws
 
 #
 
 ### 37. Application Load Balancer(ALB) w/Hands On
 
--
+- can setup target groups and rules to route traffic by /path
 
 #
 
 ### 38. Network Load Balancer(NLB) w/Hands On
 
--
+- can assign a elastic ip, only lb that will allow that
 
 #
 
 ### 39. Elastic Load Balancer - Stickiness
 
--
+- not avail on nlb
 
 #
 
 ### 40. Elastic Load Balancer - Cross Zone Load Balancing
 
--
+- not charged for cross zone load balancing for clb and alb
+- there is a charge for nlb cross zone load balancing
 
 #
 
