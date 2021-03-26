@@ -54,25 +54,31 @@
 
 ### 41. Elastic Load Balancer - SSL Certificates
 
--
+- ELB using ssl between client and elb, using http inside between elb and ec2 inst
+- can use Amazon Certificate Manager to setup a ssl cert or bring your own
+- sni
+  - load multiple ssl certs onto 1 server
+  - is a newer protocol requires client to specify the hostname of target server when initiating handshake
+  - only works on alb and nlb and cloudfront
+  - does not work with clb
 
 #
 
 ### 42. Elastic Load Balancer - Connection Draining
 
--
+- time it takes to complete inflight requests while an instance is unhealthy or deregistering
 
 #
 
 ### 43. Auto Scaling Groups(ASG) Overview
 
--
+- nothing to add
 
 #
 
 ### 44. Auto Scaling Groups Hands On
 
--
+- nothing to add
 
 #
 
