@@ -95,6 +95,6 @@
 
 ### Quiz 3: Fundamentals 2 Quiz
 
--
+- 20/20
 
 #
