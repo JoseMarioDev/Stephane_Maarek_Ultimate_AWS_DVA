@@ -6,7 +6,7 @@
 
 ### 47. EBS Intro Hands On
 
--
+- nothing new to add
 
 #
 
